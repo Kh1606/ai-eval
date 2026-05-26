@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets & model weights (bring your own — see README)
+data/
+models/
+*.pt
+*.pth
+*.onnx
+*.flac
+*.wav
+
+# Generated evaluation artefacts
+results/
+results(done)/
+ai_eval/results/
+
+# Build / packaging
+*.egg-info/
+build/
+dist/
+
+# Binary docs
+*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
