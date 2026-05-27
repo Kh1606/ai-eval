@@ -1,4 +1,4 @@
-# ai‑eval
+# EvalKit
 
 A unified **evaluation toolkit** for benchmarking five core AI model types—image classification, object detection, semantic segmentation, speech recognition, and text analysis—under repeated random‑subsampling.
 The tool answers two key questions for **every** checkpoint:
@@ -25,7 +25,7 @@ The tool answers two key questions for **every** checkpoint:
 ## Repository layout
 
 ```
-ai_eval/                 ← CLI entry‑point and helpers
+evalkit/                 ← CLI entry‑point and helpers
   └── __main__.py
   └── results/           ← auto‑generated artefacts
 
