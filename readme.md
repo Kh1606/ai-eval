@@ -6,6 +6,10 @@ The tool answers two key questions for **every** checkpoint:
 * **Performance** – classic metrics such as accuracy, mAP, mean IoU, WER.
 * **Stability** – variance of those metrics across multiple 50 % data slices.
 
+![How it works](docs/howitworks.png)
+
+*Rendered from [`docs/howitworks.py`](docs/howitworks.py) (Python `diagrams` library).*
+
 ---
 
 ## Features
